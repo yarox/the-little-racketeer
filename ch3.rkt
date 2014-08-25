@@ -1,5 +1,5 @@
 #lang racket
-(require "ch1.rkt")
+(require "common.rkt")
 
 
 ;; Chapter 3: Cons the Magnificient

@@ -1,5 +1,5 @@
 #lang racket
-(require "ch1.rkt")
+(require "common.rkt")
 
 
 ;; Chapter 2: Do It, Do It Again, and Again, and Again...
