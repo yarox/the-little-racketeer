@@ -34,5 +34,11 @@
     ((or (number? a1) (number? a2)) #f)
     (else (eq? a1 a2))))
 
+(define (member? a lat)
+  (cond
+    ((null? lat) #f)
+    (else (or (eq? (car lat) a)
+              (member? a (cdr lat))))))
+
 
 (provide (all-defined-out))

@@ -61,3 +61,6 @@
     ((null? lat) '())
     ((eq? (car lat) old) (cons new (multisubst new old (cdr lat))))
     (else (cons (car lat) (multisubst new old (cdr lat))))))
+
+
+(provide (all-defined-out))
